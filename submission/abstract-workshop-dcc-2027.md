@@ -1,0 +1,109 @@
+# From raw data to a website for humans: a live curation workflow with every AI step disclosed
+Lars Schöbitz
+2026-11-09
+
+## Submission metadata
+
+- **Conference:** Data Curation Conference 2027, Research Data
+  Management Network, University of Basel, Thursday 14 January 2027
+- **Format:** Workshop session, 75 minutes with discussion, 10:45 to
+  12:00, 10 to 20 participants
+- **Presenter:** Lars Schöbitz
+- **Discipline:** Global health engineering (water, sanitation and
+  health)
+- **Use case:** Survey and monitoring data from the water, sanitation
+  and health sector, from the raw file to a published data package and
+  website
+- **Data curation aspect(s):** Presentation of data to humans,
+  documentation, versioning, metadata, AI assisted curation with
+  disclosure, sensitive data
+- **Version:** Revised for the conference website on 9 November 2026
+  after the acceptance, with the agenda, the learning objectives and the
+  prerequisites the organisers asked for. The version submitted on 21
+  October 2026 is release v1.0.0 of the repository
+  https://github.com/Global-Health-Engineering/workshop-dcc-2027
+
+## Abstract
+
+Survey and monitoring data from the water, sanitation and health sector
+mostly lives in spreadsheets that only their owners can read. For five
+years, Global Health Engineering at ETH Zurich has turned such files
+into published data, for our own projects and, through openwashdata, for
+the wider sector. Versioned code processes the raw file into an analysis
+ready dataset with a data dictionary and machine readable metadata,
+packaged as an R data package, archived with a DOI, and presented on a
+website with documentation and plots built from the data. AI now does
+most of the mechanical work. We publish for machines and humans. This
+workshop is about the humans, who still have to discover, interpret and
+trust data that machines parse with ease.
+
+In the workshop I run the workflow live, from a messy raw file to a
+published data package and website, with the free, open source tools
+washr (to build) and pkgreview (to review). A coding agent performs the
+mechanical steps. Participants propose documentation changes as comments
+on a GitHub issue and I merge them in front of the room, so every human
+and every AI intervention stays visible. Participants who send a dataset
+of their own beforehand find it published as a data package during the
+session and leave with a citable dataset under their name. Everyone
+takes home a picture of what a published dataset looks like for a human
+reader, the tools to get there in one sitting, and a record of how AI
+took part. The discussion takes up four themes the workflow raises for
+data curation: oversight of AI curation, disclosure of AI contributions,
+sensitive data, and scientific credit for data.
+
+## Agenda (75 minutes)
+
+1.  Introduction, 10 minutes. Why we publish for humans, the workflow in
+    one picture, the three stages of data (raw, analysis ready, final),
+    and the links to the participants’ own data packages, for everyone
+    to explore during the live run.
+2.  Live run, part 1, 25 minutes. From the raw file to a documented data
+    package with washr. The agent does the mechanical steps (folder
+    structure, data dictionary, metadata, README). Participants post
+    documentation changes as comments on the workshop’s GitHub issue,
+    and I merge them live, each commit naming its proposer.
+3.  Live run, part 2, 15 minutes. Review with pkgreview, release, DOI
+    and website. The disclosure trail (commit trailers, prompt archive)
+    on the repository. One or two of the participants’ packages opened
+    and compared.
+4.  Discussion, 20 minutes. Four themes, five minutes each. Oversight of
+    AI curation, disclosure of AI contributions, sensitive data,
+    scientific credit for data.
+5.  Take home, 5 minutes. Where the repository lives, how to run washr
+    on your own data, who to ask.
+
+## Learning objectives
+
+After the workshop, participants can
+
+- describe the stages a raw dataset passes through on its way to a
+  published data package and website, and what a human reader needs at
+  each stage (documentation, data dictionary, metadata, plots);
+- tell which steps of data curation a coding agent can take over, which
+  stay with the researcher, and how AI contributions are recorded so
+  that they stay visible;
+- build, document and review a data package from their own data with
+  washr and pkgreview, and publish it with a DOI;
+- weigh the four themes (oversight, disclosure, sensitive data, credit)
+  for their own data and their own institution.
+
+## Prerequisites
+
+- Bring a laptop. Before the workshop, by Friday 11 December 2026, take
+  the ten minute pre-course survey (it records your GitHub username and
+  walks you through creating an account if you have none) and post one
+  comment on the check-in issue of the workshop repository. The workshop
+  website, https://rawtoweb.github.io/website/dcc-2027/, explains both
+  steps and what an issue is. Comments on an issue are how everyone
+  contributes during the live run. If a step fails for you, pair with a
+  neighbour on the day.
+- Optional, to run the steps yourself: install R, RStudio or Positron
+  and the washr package. The setup guide and the sample dataset are on
+  the workshop website from 5 January 2027.
+- Optional, to leave with a published data package: submit a dataset
+  through the form on the workshop website by Friday 11 December 2026,
+  either your own data (a CSV or Excel file with a few lines on its
+  origin) or a published dataset under CC BY 4.0 or CC0 that you pick.
+  The data must hold no personal data. I build a data package from it
+  before the conference, you review it, and it is published with a DOI,
+  with you as author (own data) or contributor (a dataset you picked).
