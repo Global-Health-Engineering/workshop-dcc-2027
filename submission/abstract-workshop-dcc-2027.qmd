@@ -41,8 +41,8 @@ The workshop starts before the conference. Participants send a dataset, their ow
 
 The agenda is subject to change.
 
-1. Introduction, 10 minutes. Why we publish for humans, the workflow in one picture, the three stages of data (raw, analysis ready, final), and the links to the participants' data packages.
-2. Live run with washr, 25 minutes. From the raw file to a documented data package and its website. Every step (folder structure, data dictionary, metadata, README, website) can be done by a person or by a coding agent. The agent does them here, and the points where a person confirms are shown.
+1. Introduction, 15 minutes. Why we publish for humans, the workflow in one picture, the three stages of data (raw, analysis ready, final), and the links to the participants' data packages.
+2. Live run with washr, 20 minutes. From the raw file to a documented data package and its website. Every step (folder structure, data dictionary, metadata, README, website) can be done by a person or by a coding agent. The agent does them here, and the points where a person confirms are shown.
 3. Review, release and DOI, 10 minutes. pkgreview introduced as the AI driven review. The steps after the build, with the disclosure trail (commit trailers, prompt archive), shown on a participant's package that has its DOI. Participants explore the published packages and each post one comment on the GitHub issue of one of them.
 4. Discussion in groups, 25 minutes. Four groups, one theme each: oversight of AI curation, disclosure of AI contributions, sensitive data, scientific credit for data. Each group collects its points on sticky notes, and one person per group reports back.
 5. Take home, 5 minutes. Where the packages and the guide are, how to try washr on your own data afterwards, who to ask.

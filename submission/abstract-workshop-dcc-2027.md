@@ -58,10 +58,10 @@ contributions, sensitive data, and scientific credit for data.
 
 The agenda is subject to change.
 
-1.  Introduction, 10 minutes. Why we publish for humans, the workflow in
+1.  Introduction, 15 minutes. Why we publish for humans, the workflow in
     one picture, the three stages of data (raw, analysis ready, final),
     and the links to the participants’ data packages.
-2.  Live run with washr, 25 minutes. From the raw file to a documented
+2.  Live run with washr, 20 minutes. From the raw file to a documented
     data package and its website. Every step (folder structure, data
     dictionary, metadata, README, website) can be done by a person or by
     a coding agent. The agent does them here, and the points where a
