@@ -22,9 +22,22 @@ Later the same day the workshop became the first cohort of a new offer, rawtoweb
 - Tools shown: washr runs live, pkgreview runs as the review step in part 2.
 - The four open questions: named as themes in the abstract, asked in full in the discussion block and in the README of this repository.
 
+## Decisions of 10 November 2026
+
+After the review of the pre-work website. They replace the matching points of 9 November.
+
+- The dataset is step 3 of the pre-work and expected from everyone. Whoever has no data to share says so in the survey of step 1. Participants see the workflow on data they know before the day.
+- Steps 1 and 2 are required. The sentence about pairing with a neighbour is gone everywhere.
+- No live merging of proposals from the room on one shared dataset. Documentation input comes before the day, through the dataset form and the review on each dataset's issue. In the room everyone posts one comment on the issue of a published package, on what a human reader still misses. One or two are applied live, the rest afterwards, and the commits name the proposer.
+- Agenda, subject to change: introduction 10, live run with washr 25, review, release and DOI 10 (pkgreview introduced and not run, the steps shown on a participant's package that has its DOI, the comment), discussion in four groups 25 (one theme each, sticky notes, one person per group reports back), take home 5.
+- washr is shown as work a person or an agent can do. pkgreview is introduced as the AI driven layer.
+- Running washr on the own laptop is for after the workshop, together with a guide that is being rewritten for use outside openwashdata. It is not part of the session and no date is promised for the guide.
+- Roles on a participant package: the participant is an author, for own data and for a published dataset they picked. The original authors of a published dataset are data contributors and are asked by email whether they want to be authors as well. Lars is maintainer only.
+- Material to ask of the organisers: group tables, sticky notes and pens.
+
 ## Open
 
-- Create the organisation rawtoweb-dev, the repositories, Pages on rawtoweb/website, the survey deployment and the check-in issue (Lars's gos, 10 November 2026).
 - The sample dataset for the live run and the name of its repository (decided in December).
-- The setup guide for the optional washr track and the sample dataset, on the website by 5 January 2027.
-- How the agent reads the live issue during the run (`gh issue view --comments` on command) and names the proposer in the commit (handle in the message, or a Co-authored-by trailer with the GitHub noreply address).
+- The guide for running washr on the own laptop after the workshop, rewritten for use outside openwashdata. No date promised.
+- How a comment on a package issue becomes a commit that names the proposer (handle in the message, or a Co-authored-by trailer with the GitHub noreply address).
+- Which participant package shows the release and DOI steps.

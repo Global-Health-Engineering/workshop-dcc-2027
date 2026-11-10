@@ -26,7 +26,7 @@ Since the afternoon of 9 November 2026 the workshop is the first cohort of rawto
 - `submission/` - The abstract: `abstract-workshop-dcc-2027.qmd` is the source, `abstract-workshop-dcc-2027.docx` the rendered file for the organisers, `abstract-workshop-dcc-2027.md` the same text for reading on GitHub; its own `_quarto.yml` keeps it out of the website render
 - `ai-disclosure.md` - The full AI disclosure statement
 - `drafts/` - What the abstract was built from: `spoken-draft.md` and `initial-prompt.md`, written without AI, and the two earlier versions with review notes
-- `planning/` - `session-plan.md`, the plan for the 75 minutes with the decisions of 9 November 2026, `participant-information.md`, the text the organisers send to the registered participants (survey and check-in comment by 11 December 2026, optional R setup, datasets through the form by 11 December 2026); not part of the submission
+- `planning/` - `session-plan.md`, the plan for the 75 minutes with the decisions of 9 November 2026, `participant-information.md`, the text the organisers send to the registered participants (three steps by 11 December 2026: survey, check-in comment, dataset through the form); not part of the submission
 - `prompts/` - Archived prompts behind the AI assisted commits, one file each
 - `references/` - The call for proposals, kept local and out of git
 
