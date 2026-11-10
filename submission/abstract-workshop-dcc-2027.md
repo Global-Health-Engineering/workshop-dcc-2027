@@ -1,0 +1,116 @@
+# From raw data to a website for humans: a live curation workflow with every AI step disclosed
+Lars Schöbitz
+2026-11-10
+
+## Submission metadata
+
+- **Conference:** Data Curation Conference 2027, Research Data
+  Management Network, University of Basel, Thursday 14 January 2027
+- **Format:** Workshop session, 75 minutes with discussion, 10:45 to
+  12:00, 10 to 20 participants
+- **Presenter:** Lars Schöbitz
+- **Discipline:** Global health engineering (water, sanitation and
+  health)
+- **Use case:** Survey and monitoring data from the water, sanitation
+  and health sector, from the raw file to a published data package and
+  website
+- **Data curation aspect(s):** Presentation of data to humans,
+  documentation, versioning, metadata, AI assisted curation with
+  disclosure, sensitive data
+- **Version:** Revised for the conference website on 10 November 2026
+  after the acceptance, with the agenda, the learning objectives and the
+  prerequisites the organisers asked for. The version submitted on 21
+  October 2026 is release v1.0.0 of the repository
+  https://github.com/Global-Health-Engineering/workshop-dcc-2027
+
+## Abstract
+
+Survey and monitoring data from the water, sanitation and health sector
+mostly lives in spreadsheets that only their owners can read. For five
+years, Global Health Engineering at ETH Zurich has turned such files
+into published data, for our own projects and, through openwashdata, for
+the wider sector. Versioned code processes the raw file into an analysis
+ready dataset with a data dictionary and machine readable metadata,
+packaged as an R data package, archived with a DOI, and presented on a
+website with documentation and plots built from the data. AI now does
+most of the mechanical work. We publish for machines and humans. This
+workshop is about the humans, who still have to discover, interpret and
+trust data that machines parse with ease.
+
+The workshop starts before the conference. Participants send a dataset,
+their own or a published one under an open licence, and review the data
+package built from it, which is published with a website and a DOI
+before the day. In the workshop I run the workflow live, from a messy
+raw file to a data package and website, with the free, open source tool
+washr. Every step can be done by a person or by a coding agent. Here the
+agent performs them, and the points where a person confirms stay
+visible. pkgreview, the AI driven review that follows the build, is
+introduced. Participants then explore the published packages and each
+post one comment on what a human reader still misses, so every human and
+every AI intervention stays on the record. Everyone takes home a picture
+of what a published dataset looks like for a human reader, a worked
+example to judge the workflow for their own data, and a record of how AI
+took part. The discussion takes up, in groups, four themes the workflow
+raises for data curation: oversight of AI curation, disclosure of AI
+contributions, sensitive data, and scientific credit for data.
+
+## Agenda (75 minutes)
+
+The agenda is subject to change.
+
+1.  Introduction, 15 minutes. Why we publish for humans, the workflow in
+    one picture, the three stages of data (raw, analysis ready, final),
+    and the links to the participants’ data packages.
+2.  Live run with washr, 20 minutes. From the raw file to a documented
+    data package and its website. Every step (folder structure, data
+    dictionary, metadata, README, website) can be done by a person or by
+    a coding agent. The agent does them here, and the points where a
+    person confirms are shown.
+3.  Review, release and DOI, 10 minutes. pkgreview introduced as the AI
+    driven review. The steps after the build, with the disclosure trail
+    (commit trailers, prompt archive), shown on a participant’s package
+    that has its DOI. Participants explore the published packages and
+    each post one comment on the GitHub issue of one of them.
+4.  Discussion in groups, 25 minutes. Four groups, one theme each:
+    oversight of AI curation, disclosure of AI contributions, sensitive
+    data, scientific credit for data. Each group collects its points on
+    sticky notes, and one person per group reports back.
+5.  Take home, 5 minutes. Where the packages and the guide are, how to
+    try washr on your own data afterwards, who to ask.
+
+## Learning objectives
+
+After the workshop, participants can
+
+- describe the stages a raw dataset passes through on its way to a
+  published data package and website, and what a human reader needs at
+  each stage (documentation, data dictionary, metadata, plots);
+- tell which steps of data curation a coding agent can take over, which
+  stay with the researcher, and how AI contributions are recorded so
+  that they stay visible;
+- judge from a worked example, their own package or another
+  participant’s, what it takes to publish their own data as a data
+  package, and know where the tools and the guide are;
+- weigh the four themes (oversight, disclosure, sensitive data, credit)
+  for their own data and their own institution.
+
+## Prerequisites
+
+Three steps before the workshop, all by Friday 11 December 2026. The
+workshop website, https://rawtoweb.github.io/website/dcc-2027/, explains
+each of them.
+
+- Step 1, required: take the ten minute pre-course survey. It records
+  your GitHub username and walks you through creating an account if you
+  have none.
+- Step 2, required: post one comment on the check-in issue of the
+  workshop repository. It tests your account. The website explains what
+  an issue is.
+- Step 3: send a dataset through the form on the workshop website,
+  either your own data (a CSV or Excel file with a brief description) or
+  a published dataset under CC BY 4.0 or CC0 that you pick. The data
+  must hold no personal data. I build a data package from it, you review
+  it, and it is published with a DOI before the conference, with you as
+  an author. If you have no data to share, you say so in the survey.
+
+Bring a laptop. No software has to be installed.

@@ -4,3 +4,8 @@
 .Ruserdata
 .positai
 references/*.pdf
+
+/.quarto/
+.DS_Store
+
+**/*.quarto_ipynb
