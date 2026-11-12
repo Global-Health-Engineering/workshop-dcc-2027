@@ -1,6 +1,6 @@
 # From raw data to a website for humans: a live curation workflow with every AI step disclosed
 Lars Schöbitz
-2026-11-10
+2026-11-12
 
 ## Submission metadata
 
@@ -19,8 +19,9 @@ Lars Schöbitz
   disclosure, sensitive data
 - **Version:** Revised for the conference website on 10 November 2026
   after the acceptance, with the agenda, the learning objectives and the
-  prerequisites the organisers asked for. The version submitted on 21
-  October 2026 is release v1.0.0 of the repository
+  prerequisites the organisers asked for, and on 12 November 2026 after
+  their comments. The version submitted on 21 October 2026 is release
+  v1.0.0 of the repository
   https://github.com/Global-Health-Engineering/workshop-dcc-2027
 
 ## Abstract
@@ -37,22 +38,25 @@ most of the mechanical work. We publish for machines and humans. This
 workshop is about the humans, who still have to discover, interpret and
 trust data that machines parse with ease.
 
-The workshop starts before the conference. Participants send a dataset,
-their own or a published one under an open licence, and review the data
-package built from it, which is published with a website and a DOI
-before the day. In the workshop I run the workflow live, from a messy
-raw file to a data package and website, with the free, open source tool
-washr. Every step can be done by a person or by a coding agent. Here the
-agent performs them, and the points where a person confirms stay
-visible. pkgreview, the AI driven review that follows the build, is
-introduced. Participants then explore the published packages and each
-post one comment on what a human reader still misses, so every human and
-every AI intervention stays on the record. Everyone takes home a picture
-of what a published dataset looks like for a human reader, a worked
-example to judge the workflow for their own data, and a record of how AI
-took part. The discussion takes up, in groups, four themes the workflow
-raises for data curation: oversight of AI curation, disclosure of AI
-contributions, sensitive data, and scientific credit for data.
+The workshop starts before the conference. Two required steps, a survey
+and one comment on a GitHub issue, take about ten minutes together.
+Participants are also invited to send a dataset, their own or a
+published one under an open licence. One file is enough, and how much
+context they add is up to them. I build a data package from it for them,
+they review it, and I publish it with a website and a DOI before the
+day. In the workshop I run the workflow live, from a messy raw file to a
+data package and website, with the free, open source tool washr. Every
+step can be done by a person or by a coding agent. Here the agent
+performs them, and the points where a person confirms stay visible.
+pkgreview, the AI driven review that follows the build, is introduced.
+Participants then explore the published packages and each post one
+comment on what a human reader still misses, so every human and every AI
+intervention stays on the record. Everyone takes home a picture of what
+a published dataset looks like for a human reader, a worked example to
+judge the workflow for their own data, and a record of how AI took part.
+The discussion takes up, in groups, four themes the workflow raises for
+data curation: oversight of AI curation, disclosure of AI contributions,
+sensitive data, and scientific credit for data.
 
 ## Agenda (75 minutes)
 
@@ -73,8 +77,10 @@ The agenda is subject to change.
     each post one comment on the GitHub issue of one of them.
 4.  Discussion in groups, 25 minutes. Four groups, one theme each:
     oversight of AI curation, disclosure of AI contributions, sensitive
-    data, scientific credit for data. Each group collects its points on
-    sticky notes, and one person per group reports back.
+    data, scientific credit for data. Each group answers the question of
+    its theme, writes down the two main challenges it sees and one
+    recommendation for researchers or institutions, and one person per
+    group reports back.
 5.  Take home, 5 minutes. Where the packages and the guide are, how to
     try washr on your own data afterwards, who to ask.
 
@@ -106,11 +112,14 @@ each of them.
 - Step 2, required: post one comment on the check-in issue of the
   workshop repository. It tests your account. The website explains what
   an issue is.
-- Step 3: send a dataset through the form on the workshop website,
-  either your own data (a CSV or Excel file with a brief description) or
-  a published dataset under CC BY 4.0 or CC0 that you pick. The data
-  must hold no personal data. I build a data package from it, you review
-  it, and it is published with a DOI before the conference, with you as
-  an author. If you have no data to share, you say so in the survey.
+- Step 3, recommended: send a dataset through the form on the workshop
+  website, either your own data (a CSV or Excel file with a brief
+  description) or a published dataset under CC BY 4.0 or CC0 that you
+  pick. The data must hold no personal data. One file is enough, and how
+  much time you put in beyond that is up to you. I build a data package
+  from it for you and ask my questions on a GitHub issue, where they
+  stay documented. You review the package, and I publish it with a DOI
+  before the conference, with you as an author. If you have no data to
+  share, you say so in the survey.
 
 Bring a laptop. No software has to be installed.
