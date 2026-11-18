@@ -1,6 +1,17 @@
 # Session plan for the DCC 2027 workshop
 
-Planning notes for the slot on Thursday 14 January 2027, 10:45 to 12:00 (75 minutes with discussion). Not part of the submission. Revised on 9 November 2026 after the acceptance; the version of 21 October planned 50 minutes.
+Planning notes for the slot on Thursday 14 January 2027, 10:45 to 12:00 (75 minutes with discussion). Not part of the submission. Revised on 9 November 2026 after the acceptance and reworked on 18 November 2026; the version of 21 October planned 50 minutes.
+
+| Time | Block | What happens |
+|----|----|----|
+| 0:00 to 0:15 | Introduction | Why we publish for humans, and the workflow in one picture |
+| 0:15 to 0:50 | Building a dataset together | The room contributes through issues and comments on rawtoweb/dcc-2027, and the contributions arrive as different kinds of raw data. Live run with washr from these raw files to a data package and its website. A coding agent performs the steps, and the points where a person confirms are shown. Participants review the documentation and propose changes in comments. pkgreview and the release with a DOI are explained and not run |
+| 0:50 to 1:10 | Discussion in four groups | One theme each: oversight, disclosure, sensitive data, credit. Each group answers the question of its theme, writes down two challenges and one recommendation, and one person reports back |
+| 1:10 to 1:15 | Take home | Where the dataset and the guide are, how to try washr on your own data, who to ask |
+
+This is the plan since 18 November 2026. The decisions that led to it are at the end of this file. The sections of 9 and 10 November are kept as the record of the earlier plans.
+
+## Plan of 9 November 2026 (replaced)
 
 | Time | Block | What happens |
 |----|----|----|
@@ -35,9 +46,25 @@ After the review of the pre-work website. They replace the matching points of 9 
 - Roles on a participant package: the participant is an author, for own data and for a published dataset they picked. The original authors of a published dataset are data contributors and are asked by email whether they want to be authors as well. Lars is maintainer only.
 - Material to ask of the organisers: group tables, sticky notes and pens.
 
+## Decisions of 17 and 18 November 2026
+
+After a call with the organisers on 16 November 2026. They replace the matching points of 9 and 10 November.
+
+- No dataset from participants before the conference. The organisers saw too much work on my side if 20 people send one, and too little for the workshop if almost nobody does. The dataset form and step 3 are gone.
+- The room builds one dataset together. Contributions come through GitHub, a little before the conference and the rest in the room, and they arrive as different kinds of raw data.
+- Issues and comments only. Nobody edits files, makes a copy of the repository or joins an organisation. The workshop does not teach GitHub; participants learn how to contribute with issues and comments.
+- Pre-work in two steps, due on Friday 8 January 2027: the survey, and one comment on the check-in issue with one line on the kind of data, without name and institution. A reminder goes out that evening to anyone who has not finished, with Tuesday 12 January 2027 as the last day. No time estimates are given for the pre-work.
+- The survey has two parts. Part 1 is for planning only. Part 2 (data curation and the four themes) can enter the public workshop dataset, one row per person without name, email address, username or any answer of part 1, and only with a second consent.
+- No DOI in the workshop. pkgreview and the release are explained and not run.
+- Publishing an own dataset this way is offered after the workshop, on request.
+- Agenda: introduction 15, building a dataset together 35, discussion in four groups 20, take home 5.
+- The fourth theme is named Credit everywhere.
+
 ## Open
 
-- The sample dataset for the live run and the name of its repository (decided in December).
+- The content of the shared dataset and the routes the contributions take in the room (proposal: a dataset about the room from part 2 of the survey, an issue form, a free text comment and a table filled in the room).
+- Whether the public State of Open Data survey responses (https://doi.org/10.6084/m9.figshare.31095940) serve as a second raw source or as the comparison for the Credit theme.
+
+- The name of the repository of the workshop dataset (decided in December).
 - The guide for running washr on the own laptop after the workshop, rewritten for use outside openwashdata. No date promised.
-- How a comment on a package issue becomes a commit that names the proposer (handle in the message, or a Co-authored-by trailer with the GitHub noreply address).
-- Which participant package shows the release and DOI steps.
+- How a comment on an issue becomes a commit that names the proposer (handle in the message, or a Co-authored-by trailer with the GitHub noreply address).

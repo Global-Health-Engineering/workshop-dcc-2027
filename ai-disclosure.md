@@ -47,4 +47,12 @@ What the agent did: read the organisers' email and their comments in the returne
 
 What I did: decided the seven points the revision rests on (the full 75 minutes, a laptop and a GitHub account for everyone with comments on an open issue as the channel for proposals and a check-in comment as the test step, running washr as an optional track, the four questions as themes in the abstract, my own addition that participants may send a dataset beforehand and get it published as a data package, the cutoff of 8 January 2027, publication with a DOI under CC BY 4.0 as the condition). The issue channel replaced a web form I had chosen earlier the same day.. I review every text before it goes to the organisers and send the email myself.
 
+## Revision of 17 and 18 November 2026
+
+After a call on 16 November 2026 the organisers asked for a workshop that does not depend on datasets sent in advance.
+
+What the agent did: rewrote the abstract to the new concept (the room builds one dataset together), rendered the docx and the markdown, reworked the pre-work website and the pre-course survey (two parts, a second consent for the public workshop dataset, new questions on data curation and the four themes), deployed the survey, ran a click-through test and a test response, had a second agent cross-check the survey, the website, the abstract and the email to the organisers for contradictions and fixed what it found, looked up whether the State of Open Data survey publishes its raw data, updated the session plan, the participant text and this statement, and drafted the email to the organisers.
+
+What I did: decided the concept (no datasets before the conference, one shared dataset, issues and comments only, publishing an own dataset offered afterwards, no DOI in the workshop), set the due date of Friday 8 January 2027, reviewed the survey question by question in the browser and asked for the changes (the split of the credit question, the data availability statements, the list of AI tasks, the two parts and their order, the consent wording), reviewed the website, and send the email to the organisers myself.
+
 This statement was drafted by the agent and reviewed by me.
