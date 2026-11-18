@@ -1,6 +1,6 @@
 # DCC 2027 workshop submission
 
-Workshop proposal by Lars Schöbitz (Global Health Engineering, ETH Zurich) for the Data Curation Conference 2027 of the Research Data Management Network at the University of Basel. The title is "From raw data to a website for humans: a live curation workflow with every AI step disclosed". Submitted by email on 21 October 2026 and accepted on 9 November 2026 for Thursday 14 January 2027, 10:45 to 12:00. The abstract in `submission/` is the version revised for the conference website after the acceptance, with an agenda, learning objectives and prerequisites; the submitted version is release v1.0.0.
+Workshop proposal by Lars Schöbitz (Global Health Engineering, ETH Zurich) for the Data Curation Conference 2027 of the Research Data Management Network at the University of Basel. The title is "From raw data to a website for humans: a live curation workflow with every AI step disclosed". Submitted by email on 21 October 2026 and accepted on 9 November 2026 for Thursday 14 January 2027, 10:45 to 12:00. The abstract in `submission/` is the version revised for the conference website after the acceptance, with an agenda, learning objectives and prerequisites, reworked on 17 and 18 November 2026 after a call with the organisers; the submitted version is release v1.0.0.
 
 ## Conference
 
@@ -19,14 +19,14 @@ An AI coding agent (Claude Code with Claude Fable 5.1) drafted the abstract from
 
 ## Pre-work website and the rawtoweb offer
 
-Since the afternoon of 9 November 2026 the workshop is the first cohort of rawtoweb, a workshop offer of Global Health Engineering with one GitHub organisation for many workshops (after the gitklar model). Everything participants touch lives there: the pre-work website at https://rawtoweb.github.io/website/dcc-2027/ (repository rawtoweb/website, one site with a path per cohort), the cohort repository rawtoweb/dcc-2027 with the check-in issue and the dataset form, the pre-course survey (rawtoweb-dev/pre-course-survey) and one repository per data package. This repository stays the record of the conference submission: abstract, session plan, participant text, AI disclosure and later the slides. The website built here on 9 November moved to rawtoweb/website the same day.
+Since the afternoon of 9 November 2026 the workshop is the first cohort of rawtoweb, a workshop offer of Global Health Engineering with one GitHub organisation for many workshops (after the gitklar model). Everything participants touch lives there: the pre-work website at https://rawtoweb.github.io/website/dcc-2027/ (repository rawtoweb/website, one site with a path per cohort), the cohort repository rawtoweb/dcc-2027 with the check-in issue, the pre-course survey (rawtoweb-dev/pre-course-survey) and the repository of the dataset the room builds together. Since 18 November 2026 nobody sends a dataset before the conference, and participants contribute through issues and comments only. This repository stays the record of the conference submission: abstract, session plan, participant text, AI disclosure and later the slides. The website built here on 9 November moved to rawtoweb/website the same day.
 
 ## Folders and files
 
 - `submission/` - The abstract: `abstract-workshop-dcc-2027.qmd` is the source, `abstract-workshop-dcc-2027.docx` the rendered file for the organisers, `abstract-workshop-dcc-2027.md` the same text for reading on GitHub; its own `_quarto.yml` keeps it out of the website render
 - `ai-disclosure.md` - The full AI disclosure statement
 - `drafts/` - What the abstract was built from: `spoken-draft.md` and `initial-prompt.md`, written without AI, and the two earlier versions with review notes
-- `planning/` - `session-plan.md`, the plan for the 75 minutes with the decisions of 9 November 2026, `participant-information.md`, the text the organisers send to the registered participants (three steps by 11 December 2026: survey, check-in comment, dataset through the form); not part of the submission
+- `planning/` - `session-plan.md`, the plan for the 75 minutes with the decisions of 9, 10, 17 and 18 November 2026, `participant-information.md`, the text the organisers send to the registered participants (two steps by 8 January 2027: survey and check-in comment); not part of the submission
 - `prompts/` - Archived prompts behind the AI assisted commits, one file each
 - `references/` - The call for proposals, kept local and out of git
 
@@ -37,7 +37,7 @@ The revised abstract names four discussion themes. The questions in full, as sub
 - Oversight. Frontiers sells FAIR² data publication at CHF 5,500 per dataset, curated by an AI data steward on a closed platform. How much the author still checks is unclear. In our workflow every AI step is visible.
 - Disclosure. We record how AI contributed to each output, in commit trailers and a prompt archive. I show that record for this proposal, the slides and the workshop material, in one public repository.
 - Sensitive data. Ours comes from households in low income countries. What may enter a public repository, and when only aggregates may be released, is half-solved for us.
-- Rewards. With AI, a paper is drafted in a day from well curated data. Scientific credit should shift towards the data. I invite the room to argue back.
+- Credit (submitted under the name Rewards). With AI, a paper is drafted in a day from well curated data. Scientific credit should shift towards the data. I invite the room to argue back.
 
 ## Repository
 
